@@ -1,0 +1,10 @@
+.container{
+  border:3px solid red;
+  height:250px;
+  display:flex;
+  flex direction:column
+
+}
+.box{
+
+}
