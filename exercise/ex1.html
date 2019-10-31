@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ex1</title>
+  </head>
+  <body>
+    <style>
+    *{
+      box-sizing: border-box;
+    }
+    section{
+      padding: 10px;
+      border: 3px solid black;
+      display:grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      grid-column: 10px;
+    }
+    section > div {
+      padding: 5px;
+    }
+
+    .div1{
+      border: 1px solid blue;
+      background-color: #e6ffff;
+    }
+    .div2{
+      border: 1px solid red;
+      background-color: #ffd6cc;
+    }
+    .div3{
+      border: 1px solid orange;
+      background-color: #ffffcc;
+    }
+    </style>
+
+    <section>
+      <div class="div1">
+        What is belgium?
+        Belgium is a country
+      </div>
+      <div class="div2">
+        what is goed dag?
+        It is the nederland language
+      </div>
+      <div class="div1">
+        what is Brussels?
+        Brussels is the capital of Belgium
+      </div>
+      <div class="div2">
+        heerlijk
+        is a word in Nederland
+      </div>
+      <div class="div3">
+        VIVE LA BELGIQUE
+      </div>
+    </section><br><br><br>
+    <img src="atomium.jpg">
+    <footer>L'Atomium</footer>
+  </body>
+</html>
