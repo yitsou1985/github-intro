@@ -1,0 +1,11 @@
+table,th,td{
+  border: 1px solid rgb(0, 191, 255);
+}
+h1{
+  text-align: center;
+  text-decoration: underline;
+  color: purple;
+}
+.date{
+  text-align: right;
+}
